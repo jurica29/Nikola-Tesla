@@ -1,2 +1,33 @@
-body {background-color: whitesmoke;}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    overflow: hidden;
+  }
+
+  .topnav a:hover {
+    background-color: gold;
+  }
+
+body, h1, nav {color: white}
+
+body {
+    background-color: black;
+  }
+
+  .social-networks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+  }
+
+
 
