@@ -10,22 +10,27 @@
 
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="shortcut icon" href="assets/images/favicon.png"/>
+    </head> 
+    <!-- Top page navigation section --> 
     </head>
     <body>
-        <picture>
-            <source srcset="assets/images/lightbulb.jpg" media="(max-width: 600px)">
-            <img src="assets/images/lightbulb.jpg" alt="A lightbulb on desk.">
-    </picture>
-    
+      <header id="home">
+            <h1>Nikola Tesla - A Man Who Changed the World</h1>
     <!-- Top page navigation section -->
-    <div class="topnav">
-        <a class="active" href="home.html">Home</a>
-        <a href="media.html">Media</a>
-        <a href="joinus.html">Join Us</a>
-    </div>
+        <div class="topnav">
+        <nav>
+        <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="joinus.html">Join Us</a></li>
+        </ul>
+        </nav>
+        </div>
+      </header> 
     
     <!-- Newsletter Signup form -->
     <form>
+        <div class = "signup">
         <h1>Newsletter Signup</h1>
         <p>Subscribe for more future articles!</p>
         <div class="newsletter">
@@ -35,4 +40,27 @@
         <input type="submit" value="Subscribe">
     </form>
     </body>
+
+    <!-- Footer code copied from the "Love Running" project from Code Institute -->
+<footer>
+    <ul class="social-networks">
+        <li>
+            <a href="https://facebook.com" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="https://youtube.com" target="_blank" rel="noopener"
+                aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+        </li>
+        <li>
+            <a href="https://instagram.com" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+        </li>
+    </ul>
+</footer>
+
+<!-- font awesome script -->
+<script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+</body>
+</html>
 </html>
