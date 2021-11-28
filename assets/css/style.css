@@ -4,139 +4,136 @@ h1 {
 }
 /*Navigation bar style */
 .topnav {
-	width: 80%;
-	margin: 0 auto;
+  color: black 
 }
-
-header {
-  background: white;
-}
-
-header::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-nav {
-  float: left;
-}
-
-nav ul {
+/*Timeline style */
+/*Universal selector style */
+* { 
   margin: 0;
   padding: 0;
-  list-style: none;
+  box-sizing: border-box;
 }
 
-nav li {
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 23px;
+/*Container style */
+.container {
+  min-height: 100vh;
+  width: 100%
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
 
+/*Timeline sizing and position */
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
   position: relative;
 }
 
-nav a {
-  color: #444;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
+/*Removed bullet points*/
+.timeline ul {
+  list-style:none;
 }
 
-nav a:hover {
-  color: #000;
-}
-
-nav a::before {
-  content: '';
-  display: block;
-  height: 5px;
-  background-color: #444;
-  position: absolute;
-  top: 0;
-  width: 0%;
-  transition: all ease-in-out 200ms;
-}
-
-nav a:hover::before {
-  width: 100%;
-}
-
-.navbar-nav.navbar-center {
-  position: absolute;
-  left: 50%;
-  transform: translatex(-50%);
-}
-
-/*Body style */
-body {
-  color: white;
-}
-
-h1 {
+/*Style for list items*/
+.timeline ul li {
+  padding:20px;
+  background-color: beige;
   color: black;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
-p {
-  color: white;
+/*Rule for the margin bottom for the last element as there is no other element after that */
+.timeline ul li:last-child {
+  margin-bottom: 0;
 }
 
+/*Content style for h1 and p */
+.timeline-content h1{
+font-size: 25px;
+font-weight: 1000;
+line-height: 30px;
+margin-bottom: 10px;
+}
 
-body {
-    background-color: black;
-  }
+.timeline-content p{
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
 
-/* Timeline style */
-  .wrapper {
-    position: relative;
-    width: 100%;
-    margin: auto;
-    height: 300px;
-  }
-
-  .wrapper .middle-line {
+/*Responsiveness & timeline shape and style*/
+@media only screen and (min-width: 768px) {
+  .timeline:before {
+    content: "";
     position: absolute;
-    width: 100%;
-    height: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: white;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 100%;
+    background-color: yellow;
   }
-
-  .box {
-    width: 15%;
+  .timeline ul li {
+    width: 50%;
     position: relative;
-    min-height: 300px;
+    margin-bottom: 50px;
+  }
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+    border-radius: 20px 0px 20px 20px;
+  }
+  .timeline ul li:nth-child(even) {
     float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px;
   }
-
-  .box .date {
+  .timeline ul li::before {
+    content: "";
     position: absolute;
-    top: 50%;
-    left: 0px;
-    transform: translateY(-50%);
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    background: gold;
-    border: 2px solid #d9d9d9;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: grey;
+    top: 0px;
   }
-  .date p {
-    text-align: center;
-    margin-top: 3px;
-    margin-bottom: 0px;
+  .timeline ul li:nth-child(odd)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
+  .timeline ul li:nth-child(even)::before {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+  .timeline-content .date {
+    position: absolute;
+    top: -30px;
+  }
+  .timeline ul li:hover::before {
+    background-color: beige;
+  }
+}
+/*Body style */
+body h1 p {
+  color: white;
+
+/*Footer style */
+.social-networks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
   }
 
-  /*Footer style */
-  .social-networks {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(255, 255, 255);
-  }
-
-  .nav {
-    color: black 
+.nav {
+  color: black 
   }
 
 
