@@ -4,8 +4,6 @@ Welcome to my website! [Nikola Tesla](link)
 
 This is a website dedicated to a famous scientist Nikola Tesla and it primarily aims to provide vital information about his life to all readers, especially ones interested in history and science. This website also provides a newsletter option, which enables further easier notifications on updates related to its' content.
 
-[Wireframes](assets/images/wireframes/)
-
 # Features
 
 ## Existing Features
