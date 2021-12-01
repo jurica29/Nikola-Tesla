@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+  * {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
 /*Title and header style and position*/
 .title {
     font-family: 'Open Sans', sans-serif;
@@ -49,14 +55,19 @@
   padding:0;
   text-align:center;
 }
-/*Timeline style */
-/*Universal selector style */
-* { 
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.headline {
+  text-align:center;
+  margin: 10;
 }
 
+.asideright {
+  width: 1%;
+  padding-right: -80px;
+  margin-left: -80px;
+  float: left;
+}
+
+/*Timeline style */
 /*Container style */
 .container {
   min-height: 100vh;
@@ -65,6 +76,7 @@
   align-items: center;
   justify-content: center;
   background-color: white;
+  padding: 50px;
 }
 
 /*Timeline sizing and position */
@@ -164,13 +176,6 @@ margin-bottom: 10px;
   }
 }
 
-/*Style for image on the right side of the timeline*/
-.asideright {
-  display: block;
-  float: right;    
-  margin: 0 0 0 10px;
-}
-
 /*Body*/
 .headline {
   text-align: center;
@@ -182,50 +187,8 @@ body h1 p {
   color: white;
   margin-bottom:50px;
 }
-/*Footer*/
-footer {
-    clear: both;
-    position: relative;
-    background-color: black;
-    height: 100%;
-    text-align: center; 
-    padding: 30px 30px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.social-networks {
-  text-align: center;
-}
-
-.social-networks > li {
-  justify-content: center;
-  width:100%;
-  text-align: center;
-  display: inline;
-}
-
-.social-networks i {
-  font-size: 60px;
-  margin:  2%;
-  padding: 20px 0;
-  color: white;
-  text-align: center;
-  display:inline-block;
-}
-
-/* Adds a hover effect to social media icons*/
-.social-networks a:hover{
-  opacity: 0.6;
-}
 
 /* Form (Newsletter) */
-*{
-  margin: 0;
-  padding: 0;
-}
-
 .newsletter {
 background: beige
 margin: 0 auto;
@@ -245,7 +208,7 @@ color: black;
 }
 
 .newsletter p {
-  font-size: 16px;
+  font-size: 25px;
   line-height: 24px;
   color: black;
 }
@@ -261,7 +224,7 @@ color: black;
   margin-bottom: 36px;
   outline: none;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 ::placeholder {
@@ -276,6 +239,7 @@ color: black;
   color: black;
   padding: 0px 28px;
   cursor: pointer;
+  font-size: 20px;
 }
 
 .newsletter button:hover {
@@ -286,11 +250,50 @@ color: black;
 /* Media*/
 .video-container {
   position: relative;
-  padding-bottom: 33.25%;
+  padding-bottom: 34.00%;
   padding-top: 0;
   height: 0;
   overflow: hidden;
 }
+
+/*Footer*/
+footer {
+  clear: both;
+  position: relative;
+  background-color: black;
+  height: 100%;
+  text-align: center; 
+  padding: 30px 30px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.social-networks {
+text-align: center;
+}
+
+.social-networks > li {
+justify-content: center;
+width:100%;
+text-align: center;
+display: inline;
+}
+
+.social-networks i {
+font-size: 60px;
+margin:  2%;
+padding: 20px 0;
+color: white;
+text-align: center;
+display:inline-block;
+}
+
+/* Adds a hover effect to social media icons*/
+.social-networks a:hover{
+opacity: 0.6;
+}
+
 /* Copyright text at the end of the footer*/
 .copyright {
   color: white;
