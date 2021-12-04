@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap");
 
-  * {
-    margin: 0;
-    padding: 0;
-    border: none;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
 
 /*Top heading style and position*/
 #title {
-    font-family: 'Bebas Neue', cursive;
-    text-transform: uppercase;
-    font-size: 80px;
-    text-align: center;
-    position: relative;
-    margin: 30px;
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  font-size: 80px;
+  text-align: center;
+  position: relative;
+  margin: 30px;
 }
 /*Navigation bar style */
-/* Add a black background color to the top navigation */ 
+/* Add a black background color to the top navigation */
 .topnav {
   background-color: black;
   overflow: hidden;
@@ -44,57 +44,57 @@
 }
 
 /* Position the navbar to the center */
-.topnav li{
-  display:inline-block;
+.topnav li {
+  display: inline-block;
 }
 
-.topnav{
-  border:1px solid #ccc;
-  border-width:1px 0;
-  list-style:none;
-  margin:0;
-  padding:0;
+.topnav {
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 #headline {
-  text-align:center;
+  text-align: center;
   margin: 30px;
   margin-bottom: -20px;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 /*Introductory text style*/
 #introduction {
   margin-bottom: 20px;
   text-align: center;
-  }
-  
+}
+
 #intro {
-    min-height: 10vh;
-    line-height: 85%;
-    font-size: 150%;
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 950px;
-    margin: 20px;
-    padding: 20px;
-    background: beige;
-    border: 1px solid black;
-    color: black;
-    box-sizing: content-box;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-align: justify;
-    border-radius: 1em;
-    font-size: clamp(12px, 4vw, 24px);
-  }
+  min-height: 10vh;
+  line-height: 85%;
+  font-size: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 950px;
+  margin: 20px;
+  padding: 20px;
+  background: beige;
+  border: 1px solid black;
+  color: black;
+  box-sizing: content-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: justify;
+  border-radius: 1em;
+  font-size: clamp(12px, 4vw, 24px);
+}
 
 /*Timeline style */
 /*Container style */
@@ -138,10 +138,10 @@
 
 /*Content style for h1 and p */
 .timeline-content h1 {
-font-size: 25px;
-font-weight: 1000;
-line-height: 30px;
-margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 1000;
+  line-height: 30px;
+  margin-bottom: 10px;
 }
 
 .timeline-content p {
@@ -159,7 +159,7 @@ margin-bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     width: 2px;
-    height: 100%;
+    height: 88%;
     background-color: gray;
   }
   .timeline ul li {
@@ -214,7 +214,7 @@ margin-bottom: 10px;
 }
 body h1 p {
   color: white;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 }
 
 /* Quotes style */
@@ -246,7 +246,7 @@ body h1 p {
 }
 
 .blockquote__text {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-style: italic;
   line-height: 1.5;
   font-size: 1.15em;
@@ -258,21 +258,21 @@ body h1 p {
 }
 
 /* The frameborder attribute */
-iframe{
+iframe {
   border-width: 0px;
 }
 
 /* Newsletter form style */
 .newsletter {
-background-color: rgb(211,211,211);
-margin: 0 auto;
-text-align: center;
-max-width: 330px;
-padding: 40px 30px;
-border-radius: 5px;
-color: black;
-margin-bottom: 10px;
-border-radius: 1em;
+  background-color: rgb(211, 211, 211);
+  margin: 0 auto;
+  text-align: center;
+  max-width: 330px;
+  padding: 40px 30px;
+  border-radius: 5px;
+  color: black;
+  margin-bottom: 10px;
+  border-radius: 1em;
 }
 
 .newsletter hr {
@@ -326,18 +326,36 @@ border-radius: 1em;
 /* Media*/
 #documentaries {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  font-size: 80px;
+  padding-top: 5%;
   text-align: center;
+  min-height: 5vh;
+  max-width: 990px;
+  margin-top: 80px;
+  padding: 5px;
+  background: beige;
+  border: 1px solid black;
+  color: black;
+  box-sizing: content-box;
+  text-align: center;
+  border-radius: 10em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: clamp(24px, 6vw, 48px);
 }
 
 .video-container {
   position: relative;
-  padding-bottom: 34.00%;
-  padding-top: 0;
-  height: 0;
-  overflow: hidden;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+/*YET TO BE DONE!*/
+@media only screen and (max-width: 992px) {
 }
 
 /*Footer*/
@@ -346,7 +364,7 @@ footer {
   position: relative;
   background-color: black;
   height: 100%;
-  text-align: center; 
+  text-align: center;
   padding: 30px 30px;
   width: 100%;
   margin: 0;
@@ -354,32 +372,32 @@ footer {
 }
 
 .social-networks {
-text-align: center;
+  text-align: center;
 }
 
 .social-networks > li {
-justify-content: center;
-width:100%;
-text-align: center;
-display: inline;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  display: inline;
 }
 
 .social-networks i {
-font-size: 60px;
-margin:  2%;
-padding: 20px 0;
-color: white;
-text-align: center;
-display:inline-block;
+  font-size: 60px;
+  margin: 2%;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  display: inline-block;
 }
 
 /* Adds a hover effect to social media icons*/
 .social-networks a:hover {
-opacity: 0.4;
+  opacity: 0.4;
 }
 
 /* Copyright text at the end of the footer*/
 .copyright {
   color: white;
-  font-size: 150%
+  font-size: 150%;
 }
