@@ -5,8 +5,8 @@
     border: none;
   }
 
-/*Title style and position*/
-.title {
+/*Top heading style and position*/
+#title {
     font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
     font-size: 80px;
@@ -56,7 +56,7 @@
   padding:0;
   text-align: center;
 }
-.headline {
+#headline {
   text-align:center;
   margin: 10;
 }
@@ -122,7 +122,7 @@ margin-bottom: 10px;
   font-weight: 300;
 }
 
-/*Responsiveness & timeline shape and style*/
+/*Responsiveness of home page & timeline shape and style*/
 @media only screen and (min-width: 768px) {
   .timeline:before {
     content: "";
@@ -177,12 +177,30 @@ margin-bottom: 10px;
   }
 }
 
-/*Introductory text*/
+/*Introductory text style*/
+#introduction {
+margin-bottom: 20px;
+text-align: center;
+}
+
 #intro {
   line-height: 85%;
-  font-size: 200%;
+  font-size: 150%;
   font-family: Arial, Helvetica, sans-serif;
-  }
+  max-width: 800px;
+  margin: 15px;
+  padding: 35px;
+  background: beige;
+  border: 2px solid black;
+  color: black;
+  box-sizing: content-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: justify;
+}
+
 
 /*Body*/
 .headline {
@@ -205,6 +223,11 @@ body h1 p {
   border: 1px solid black;
   color: black;
   box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
 }
 
 .blockquote--bordered {
@@ -232,6 +255,10 @@ body h1 p {
   margin-bottom: 1em;
 }
 
+/* The frameborder attribute */
+iframe{
+  border-width: 0px;
+}
 
 /* Newsletter form style */
 .newsletter {
@@ -293,6 +320,14 @@ color: black;
 }
 
 /* Media*/
+#documentaries {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 .video-container {
   position: relative;
   padding-bottom: 34.00%;
