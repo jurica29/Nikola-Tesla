@@ -14,7 +14,21 @@
   text-align: center;
   position: relative;
   margin: 30px;
+  max-width: 50vm;
 }
+
+/*Responsiveness for title and navigation bar!*/
+@media only screen and (max-width: 768px) {
+  #title {
+    display: flex;
+    font-size: 10vw;
+  }
+  .topnav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /*Navigation bar style */
 /* Add a black background color to the top navigation */
 .topnav {
@@ -67,6 +81,16 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/*Responsiveness for image in the center on home page*/
+@media only screen and (max-width: 768px) {
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+}
 }
 
 /*Introductory text style*/
@@ -257,6 +281,19 @@ body h1 p {
   margin-bottom: 1em;
 }
 
+/*Responsiveness for title and navigation bar!*/
+@media only screen and (max-width: 768px) {
+  .blockquote {
+    display: flex;
+    font-size: 3vw;
+    width: 400px;
+  }
+
+  .blockquote--quoted::before {
+    display: flex;
+    font-size: 5vw;
+  }
+
 /* The frameborder attribute */
 iframe {
   border-width: 0px;
@@ -323,6 +360,27 @@ iframe {
   border-color: black;
 }
 
+/*Newsletter responsiveness for smaller screens*/
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+  .newsletter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 70%;
+  }
+
+  .newsletter button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .newsletter hr {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
 /* Media*/
 #documentaries {
   font-family: Arial, Helvetica, sans-serif;
@@ -346,20 +404,32 @@ iframe {
   font-size: clamp(24px, 6vw, 48px);
 }
 
-.video-container {
+.iframe-container {
   position: relative;
-  padding-bottom: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 5%;
+  overflow: hidden;
+  width: 100%;
 }
 
-/*YET TO BE DONE!*/
-@media only screen and (max-width: 992px) {
+/*Media page responsiveness*/
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+  .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /*Footer*/
 footer {
+  display: both;
   clear: both;
   position: relative;
   background-color: black;
@@ -377,14 +447,14 @@ footer {
 
 .social-networks > li {
   justify-content: center;
-  width: 100%;
   text-align: center;
   display: inline;
+  width: 100%;
 }
 
 .social-networks i {
-  font-size: 60px;
-  margin: 2%;
+  font-size: 70px;
+  margin: 5%;
   padding: 20px 0;
   color: white;
   text-align: center;
@@ -393,7 +463,7 @@ footer {
 
 /* Adds a hover effect to social media icons*/
 .social-networks a:hover {
-  opacity: 0.4;
+  opacity: 0.5;
 }
 
 /* Copyright text at the end of the footer*/
@@ -401,3 +471,11 @@ footer {
   color: white;
   font-size: 150%;
 }
+
+/*Responsiveness for footer element*/
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+  }
