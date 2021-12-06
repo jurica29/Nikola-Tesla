@@ -6,7 +6,7 @@
   border: none;
 }
 
-/*Title*/
+/*Website title*/
 #title {
   font-family: "Bebas Neue", cursive;
   text-transform: uppercase;
@@ -79,13 +79,13 @@ nav ul li:hover {
   width: 50%;
 }
 
-/*Responsiveness for image in the center on home page*/
+/*Responsiveness for image in the center of home page*/
 @media only screen and (max-width: 768px) {
 .center {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 95%;
+  width: 100%;
 }
 }
 
@@ -96,24 +96,42 @@ nav ul li:hover {
 }
 
 #intro {
-  min-height: 10vh;
-  line-height: 85%;
+  min-height: 5vh;
+  line-height: 90%;
   font-size: 150%;
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 950px;
+  max-width: 800px;
   margin: 20px;
   padding: 20px;
   background: beige;
   border: 1px solid black;
   color: black;
-  box-sizing: content-box;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   text-align: justify;
-  border-radius: 1em;
+  border-radius: 2em;
   font-size: clamp(12px, 4vw, 24px);
+  word-spacing: normal;
+}
+
+/*Responsiveness for the introductory text*/
+@media only screen and (max-width: 768px) {
+  #intro {
+    max-height: 60em;
+    width: 80%;
+    font-size: 100%;
+  }
+}
+
+/*Headline for the timeline*/
+.headline {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  top: 0;
+  background-color: black;
 }
 
 /*Timeline style */
@@ -124,7 +142,7 @@ nav ul li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 100px 0;
+  padding: 60px 0;
   background-color: white;
 }
 
@@ -225,13 +243,7 @@ nav ul li:hover {
   }
 }
 
-/*Body*/
-.headline {
-  text-align: center;
-  position: relative;
-  width: 100%;
-  top: 0;
-}
+/*Body elements style*/
 body h1 p {
   color: white;
   margin-bottom: 50px;
@@ -277,17 +289,18 @@ body h1 p {
   margin-bottom: 1em;
 }
 
-/*Responsiveness for title and navigation bar!*/
+/*Responsiveness for quotes boxes*/
 @media only screen and (max-width: 768px) {
   .blockquote {
     display: flex;
-    font-size: 3vw;
-    width: 400px;
+    font-size: 4vw;
+    margin: 1;
+    width: 80%;
   }
 
   .blockquote--quoted::before {
     display: flex;
-    font-size: 5vw;
+    font-size: 8vw;
   }
 
 /* The frameborder attribute */
