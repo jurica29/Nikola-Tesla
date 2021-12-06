@@ -10,7 +10,7 @@
 #title {
   font-family: "Bebas Neue", cursive;
   text-transform: uppercase;
-  font-size: 90px;
+  font-size: 98px;
   text-align: center;
   position: relative;
   margin: 30px;
@@ -265,7 +265,7 @@ body h1 p {
 }
 
 .blockquote--bordered {
-  border-left-width: 15px;
+  border-left-width: 12px;
 }
 
 .blockquote--quoted::before {
@@ -317,14 +317,14 @@ iframe {
   padding: 40px 30px;
   border-radius: 5px;
   color: black;
-  margin-bottom: 10px;
-  border-radius: 1em;
+  margin-bottom: 5px;
+  border-radius: 2.5em;
 }
 
 .newsletter hr {
-  width: 50px;
-  height: 2px;
-  margin: 20px auto;
+  width: 100px;
+  height: 3px;
+  margin: 15px auto;
   border: 0;
   background: black;
 }
@@ -339,7 +339,7 @@ iframe {
   border-radius: 3px;
   background-color: black;
   width: 100%;
-  height: 55px;
+  height: 45px;
   border: 0px;
   padding: 0 20px;
   color: white;
@@ -354,14 +354,14 @@ iframe {
 }
 
 .newsletter button {
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 3px;
-  height: 50px;
+  height: 40px;
   background-color: transparent;
   color: black;
-  padding: 0px 28px;
+  padding: 2px 20px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .newsletter button:hover {
@@ -370,18 +370,17 @@ iframe {
 }
 
 /*Newsletter responsiveness for smaller screens*/
-@media only screen and (max-width: 768px) and (min-width: 480px) {
+@media only screen and (max-width: 768px) {
   .newsletter {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 70%;
+    max-width: 65%;
   }
 
   .newsletter button {
     display: flex;
     justify-content: center;
-    flex-direction: column;
   }
 
   .newsletter hr {
@@ -405,11 +404,11 @@ iframe {
   color: black;
   box-sizing: content-box;
   text-align: center;
-  border-radius: 10em;
+  border-radius: 0.5em;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
   font-size: clamp(24px, 6vw, 48px);
 }
 
@@ -420,19 +419,31 @@ iframe {
 }
 
 /*Media page responsiveness*/
-@media only screen and (max-width: 768px) and (min-width: 480px) {
-  .iframe-container{
+@media only screen and (max-width: 768px) {
+  #documentaries {
+    max-height: 80em;
+    width: 90%;
+    font-size: 160%;
+    margin-top: 15px;
+  }
+}
+  .iframe-container {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%; 
     height: 0;
   }
-  .iframe-container iframe{
+  .iframe-container iframe {
     position: absolute;
     top:0;
     left: 0;
     width: 100%;
     height: 100%;
+  }
+
+  iframe { 
+    width: 50%;
+    margin: 1 auto; 
   }
 }
 
