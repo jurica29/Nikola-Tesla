@@ -302,6 +302,7 @@ body h1 p {
     display: flex;
     font-size: 8vw;
   }
+}
 
 /* The frameborder attribute */
 iframe {
@@ -397,7 +398,7 @@ iframe {
   text-align: center;
   min-height: 5vh;
   max-width: 990px;
-  margin-top: 80px;
+  margin-top: 20px;
   padding: 5px;
   background: beige;
   border: 1px solid black;
@@ -440,13 +441,10 @@ iframe {
     width: 100%;
     height: 100%;
   }
-
   iframe { 
     width: 50%;
     margin: 1 auto; 
   }
-}
-
 /*Footer*/
 footer {
   display: both;
@@ -493,9 +491,11 @@ footer {
 }
 
 /*Responsiveness for footer element*/
-@media only screen and (max-width: 767px) and (min-width: 480px) {
+@media screen and (max-width: 768px) {
   .footer {
+    flex: 0;
     display: flex;
     justify-content: center;
     flex-direction: column; }
   }
+}
