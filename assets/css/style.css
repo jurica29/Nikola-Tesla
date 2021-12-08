@@ -6,7 +6,7 @@
   border: none;
 }
 
-/*Website title*/
+/*Website title style*/
 #title {
   font-family: "Bebas Neue", cursive;
   text-transform: uppercase;
@@ -20,7 +20,7 @@
   #title {
     display: flex;
     font-size: 50px;
-}
+  }
 }
 
 /*Navigation bar*/
@@ -56,16 +56,17 @@ nav ul li:hover {
 /*Navigation bar responsiveness*/
 @media all and (max-width: 640px) {
   nav ul {
-      flex-direction: column;
+    flex-direction: column;
   }
   nav ul li {
-      text-align: center;
+    text-align: center;
   }
   nav {
     font-size: 30px;
   }
 }
 
+/*Style for headline and image on the home page*/
 #headline {
   text-align: center;
   margin: 30px;
@@ -81,12 +82,12 @@ nav ul li:hover {
 
 /*Responsiveness for image in the center of home page*/
 @media only screen and (max-width: 768px) {
-.center {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-}
+  .center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 /*Introductory text style*/
@@ -249,7 +250,7 @@ body h1 p {
   margin-bottom: 50px;
 }
 
-/* Quotes style */
+/*Quotes page style*/
 .blockquote {
   max-width: 600px;
   margin: 10px;
@@ -294,7 +295,6 @@ body h1 p {
   .blockquote {
     display: flex;
     font-size: 4vw;
-    margin: 1;
     width: 80%;
   }
 
@@ -304,12 +304,12 @@ body h1 p {
   }
 }
 
-/* The frameborder attribute */
+/*The frameborder attribute*/
 iframe {
   border-width: 0px;
 }
 
-/* Newsletter form style */
+/*Newsletter form style*/
 .newsletter {
   background-color: rgb(211, 211, 211);
   margin: 0 auto;
@@ -390,7 +390,7 @@ iframe {
     flex-direction: column;
   }
 }
-/* Media*/
+/*Media page style*/
 #documentaries {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 80px;
@@ -416,7 +416,8 @@ iframe {
 .iframe-container {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 90%;
+  border: 10px solid black;
 }
 
 /*Media page responsiveness*/
@@ -428,26 +429,49 @@ iframe {
     margin-top: 15px;
   }
 }
-  .iframe-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-  }
-  .iframe-container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  iframe { 
-    width: 50%;
-    margin: 1 auto; 
-  }
-/*Footer*/
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+iframe {
+  width: 50%;
+  margin: auto;
+}
+
+/*Quotes headline style*/
+#quotes {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  padding-top: 5%;
+  text-align: center;
+  min-height: 5vh;
+  max-width: 500px;
+  margin-top: 10px;
+  padding: 10px;
+  background: beige;
+  border: 1px solid black;
+  color: black;
+  box-sizing: content-box;
+  text-align: center;
+  border-radius: 0.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-size: clamp(24px, 6vw, 48px);
+}
+
+/*Footer style*/
 footer {
-  display: both;
   clear: both;
   position: relative;
   background-color: black;
@@ -490,12 +514,12 @@ footer {
   font-size: 150%;
 }
 
-/*Responsiveness for footer element*/
+/*Footer responsiveness for smaller screens*/
 @media screen and (max-width: 768px) {
   .footer {
     flex: 0;
     display: flex;
     justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
   }
 }
