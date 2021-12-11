@@ -10,10 +10,10 @@
 #title {
   font-family: "Bebas Neue", cursive;
   text-transform: uppercase;
-  font-size: 98px;
+  font-size: 70px;
   text-align: center;
   position: relative;
-  margin: 30px;
+  margin: 60px;
 }
 /*Responsiveness for website title*/
 @media all and (max-width: 640px) {
@@ -25,7 +25,7 @@
 
 /*Navigation bar*/
 nav {
-  font-size: 50px;
+  font-size: 25px;
   background-color: black;
 }
 
@@ -77,7 +77,7 @@ nav ul li:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 30%;
 }
 
 /*Responsiveness for image in the center of home page*/
@@ -86,7 +86,7 @@ nav ul li:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -100,7 +100,6 @@ nav ul li:hover {
   min-height: 5vh;
   line-height: 90%;
   font-size: 150%;
-  font-family: Arial, Helvetica, sans-serif;
   max-width: 800px;
   margin: 20px;
   padding: 20px;
@@ -110,7 +109,7 @@ nav ul li:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
   text-align: justify;
   border-radius: 2em;
   font-size: clamp(12px, 4vw, 24px);
@@ -445,29 +444,6 @@ iframe {
 iframe {
   width: 50%;
   margin: auto;
-}
-
-/*Quotes headline style*/
-#quotes {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 80px;
-  padding-top: 5%;
-  text-align: center;
-  min-height: 5vh;
-  max-width: 500px;
-  margin-top: 10px;
-  padding: 10px;
-  background: beige;
-  border: 1px solid black;
-  color: black;
-  box-sizing: content-box;
-  text-align: center;
-  border-radius: 0.5em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  font-size: clamp(24px, 6vw, 48px);
 }
 
 /*Footer style*/
