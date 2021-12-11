@@ -77,7 +77,7 @@ nav ul li:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 25%;
 }
 
 /*Responsiveness for image in the center of home page*/
@@ -94,13 +94,14 @@ nav ul li:hover {
 #introduction {
   margin-bottom: 20px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
 }
 
 #intro {
   min-height: 5vh;
   line-height: 90%;
-  font-size: 150%;
-  max-width: 800px;
+  max-width: 950px;
   margin: 20px;
   padding: 20px;
   background: beige;
@@ -112,8 +113,9 @@ nav ul li:hover {
   width: 60%;
   text-align: justify;
   border-radius: 2em;
-  font-size: clamp(12px, 4vw, 24px);
+  font-size: clamp(10px, 4vw, 20px);
   word-spacing: normal;
+  font-family: Garamond;
 }
 
 /*Responsiveness for the introductory text*/
@@ -183,9 +185,10 @@ nav ul li:hover {
 }
 
 .timeline-content p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
   font-weight: 300;
+  font-family: Garamond;
 }
 
 /*Responsiveness of home page & timeline shape and style*/
@@ -244,9 +247,8 @@ nav ul li:hover {
 }
 
 /*Body elements style*/
-body h1 p {
-  color: white;
-  margin-bottom: 50px;
+h1, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Quotes page style*/
