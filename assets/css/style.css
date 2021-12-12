@@ -19,7 +19,7 @@
 @media all and (max-width: 640px) {
   #title {
     display: flex;
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
@@ -121,9 +121,9 @@ nav ul li:hover {
 /*Responsiveness for the introductory text*/
 @media only screen and (max-width: 768px) {
   #intro {
-    max-height: 50em;
-    width: 80%;
-    font-size: 120%;
+    max-height: 55em;
+    width: 75%;
+    font-size: 100%;
     word-spacing: normal;
   }
 }
@@ -335,8 +335,9 @@ iframe {
 
 .newsletter p {
   font-size: 25px;
-  line-height: 60px;
+  line-height: 50px;
   color: black;
+  margin-bottom: -10px;
 }
 
 .newsletter input {
@@ -355,11 +356,11 @@ iframe {
 
 ::placeholder {
   color: white;
-  font-size: 22px;
+  font-size: 120%; 
 }
 
 .email {
-   margin-top: 10px;
+   margin-top: 25px;
   }
 
 .newsletter button {
@@ -371,7 +372,8 @@ iframe {
   padding: 1px 10px;
   cursor: pointer;
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 1px;
+  margin-right: 7px ;
 }
 
 .newsletter button:hover {
@@ -398,7 +400,7 @@ iframe {
 
   .newsletter p {
     display: flex;
-    font-size: 100%;
+    font-size: 150%;
     justify-content: center;
   }
 
@@ -412,10 +414,11 @@ iframe {
     display: flex;
     justify-content: center;
     width: 40%;
-    margin-left: 100px;
+    margin-left: 130px;
     margin-bottom: 1px;
     margin-top: 1px;
     font-size: 20px;
+    padding-top: 5px;
   }
 
   .newsletter hr {
@@ -429,27 +432,44 @@ iframe {
   .email {
     display: flex;
     justify-content: center;
+    margin-right: 10px;
+    }
+
+    ::placeholder {
+      color: white;
     }
 }
 
-@media only screen and (min-width: 510px) {
+@media screen and (min-width: 301px) and (max-width: 515px) {
   .newsletter {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 60%;
+    max-width: 70%;
     margin-bottom: 10%;
+    font-size: 12px;
   }
 
   .newsletter button {
     display: flex;
     justify-content: center;
-    width: 40%;
-    margin-left: 105px;
+    width: 50%;
+    margin-left: 70px;
     margin-bottom: 1px;
     margin-top: 1px;
-    font-size: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
   }
+  .email {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    font-size: 25px;
+    flex-direction: column;
+    margin-left: 70px;
+    width: inherit;
+    }
 }
 
 /*Media page style*/
@@ -549,7 +569,8 @@ footer {
 /* Copyright text at the end of the footer*/
 .copyright {
   color: white;
-  font-size: 150%;
+  font-size: 90%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Footer responsiveness for smaller screens*/
