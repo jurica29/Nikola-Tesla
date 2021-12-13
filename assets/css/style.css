@@ -248,7 +248,9 @@ nav ul li:hover {
 }
 
 /*Body elements style*/
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -312,7 +314,7 @@ iframe {
 }
 
 /*Newsletter form (at the bottom of each page) style*/
-.wrapper{
+.wrapper {
   width: 100%;
   display: flex;
   align-items: center;
@@ -320,7 +322,7 @@ iframe {
 }
 
 /*Subscribe box style*/
-#subscribebox{
+#subscribebox {
   width: 500px;
   max-width: 100%;
   margin: auto;
@@ -365,10 +367,11 @@ h3 {
   border: 0px;
   padding: 15px 0px 15px 20px;
   font-size: 14px;
-  background: #F0F4EF;
+  background: #f0f4ef;
 }
 
-#email-input:focus, #email-input:hover{
+#email-input:focus,
+#email-input:hover {
   outline: 0px;
 }
 
@@ -377,10 +380,10 @@ h3 {
   border: 0px;
   width: 150px;
   max-width: 55%;
-  font-size: 800;
+  font-size: 800px;
   padding: 15px;
   font-size: 14px;
-  color: #F0F4EF;
+  color: #f0f4ef;
   font-family: inherit;
   background: black;
   cursor: pointer;
@@ -396,17 +399,17 @@ h3 {
 
 /*Newsletter responsiveness for smaller screens*/
 @media screen and (max-width: 700px) {
-  #subscribe-button{
+  #subscribe-button {
     width: 98%;
     margin: 5px;
     border-radius: 2px;
   }
-  #email-input{
+  #email-input {
     width: 98%;
     margin: 5px;
     text-align: center;
   }
-  #subscribebox{
+  #subscribebox {
     width: 100%;
   }
 }
@@ -437,7 +440,7 @@ h3 {
 .vidwrapper {
   display: flex;
   justify-content: center;
-  width: 100%; 
+  width: 100%;
   max-width: 800px;
   margin: 3em auto;
   border: 6px solid black;
@@ -501,7 +504,7 @@ footer {
 .social-networks i {
   font-size: 30px;
   margin: 2%;
-  padding: 10px 1;
+  padding: 10px 1px;
   color: white;
   text-align: center;
   display: inline-block;
@@ -528,7 +531,7 @@ footer {
     flex-direction: column;
   }
 
-  .social-networks i { 
+  .social-networks i {
     display: inline-block;
   }
 }
