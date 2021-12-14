@@ -45,18 +45,36 @@ Wireframes created with Balsamiq. The project was developed from initial wirefra
 
 Click on the below page names to see these wireframes:
 
-[Home](https://github.com/jurica29/Nikola-Tesla/main/assets/images/readmeimages/home.jpg)
+[Home](https://github.com/jurica29/Project-1/blob/4ae3f1fbf933a4cb1b795c88946703d83e6a17c4/assets/images/readmeimages/home.jpg)
 
 
-[Quotes](https://github.com/jurica29/Nikola-Tesla/main/assets/images/readmeimages/quotes.jpg)
+[Quotes](https://github.com/jurica29/Project-1/blob/4ae3f1fbf933a4cb1b795c88946703d83e6a17c4/assets/images/readmeimages/quotes.jpg)
 
 
-[Media](https://github.com/jurica29/Nikola-Tesla/main/assets/images/readmeimages/media.jpg)
+[Media](https://github.com/jurica29/Project-1/blob/4ae3f1fbf933a4cb1b795c88946703d83e6a17c4/assets/images/readmeimages/media.jpg)
 
+### 5. Surface
+* Colours
 
+When considering the colour theme of this project the objective was to use black and white theme in accordance with the main subject of the website. Also, beige is used for certain elements, such as text, title and timeline boxes.
+<img src="assets/images/readmeimages/colourscheme.jpg"/>
+* Font Selection
+ 
+Title font, "Bebas Neue", was chosen from [Google Fonts](https://fonts.google.com/), while there were two default fonts used across the website: Garamond (for headers) and Arial (for paragraphs).
 
+## Existing Features 
 
++ The home page image
 
+Tesla's portrait photo is used at the home page.
+
+<img src= "assets/images/Tesla2.jpg">
+
++ Navigation Bar 
+
+ Featured on all three pages, the full responsive navigation bar includes links to the Home page, Quotes and Media page and is identical in each page to allow for easy navigation.
+
+<img src="assets/images/readmeimages/navbar.jpg">
 
 
 
