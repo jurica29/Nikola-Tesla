@@ -53,7 +53,7 @@ nav ul li:hover {
   background-color: grey;
 }
 
-/*Navigation bar responsiveness*/
+/*Navigation bar responsiveness for smaller screens*/
 @media all and (max-width: 640px) {
   nav ul {
     flex-direction: column;
@@ -137,7 +137,7 @@ nav ul li:hover {
   background-color: black;
 }
 
-/*Timeline style */
+/*Home page timeline style */
 /*Container style */
 .container {
   min-height: 100vh;
