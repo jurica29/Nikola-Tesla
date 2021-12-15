@@ -1,7 +1,7 @@
-# Nikola Tesla 
+# Nikola Tesla - A Man Who Changed the World
 This is a website dedicated to a famous scientist Nikola Tesla and it primarily aims to provide vital information about his life to all visitors, 
 especially ones interested in history and science. This website has three pages: home, quotes and media, thus providing variety of possibilities 
-for visitors to inform themselves about Nikola Tesla.
+for users to inform themselves about Nikola Tesla.
 
 <img src="assets/images/readmeimages/presentation.jpg"/>
 
@@ -57,24 +57,103 @@ Click on the below page names to see these wireframes:
 * Colours
 
 When considering the colour theme of this project the objective was to use black and white theme in accordance with the main subject of the website. Also, beige is used for certain elements, such as text, title and timeline boxes.
+
 <img src="assets/images/readmeimages/colourscheme.jpg"/>
+
 * Font Selection
  
 Title font, "Bebas Neue", was chosen from [Google Fonts](https://fonts.google.com/), while there were two default fonts used across the website: Garamond (for headers) and Arial (for paragraphs).
 
 ## Existing Features 
 
++ Navigation Bar 
+
+ Featured on all three pages, the full responsive navigation bar includes links to the Home page, Quotes and Media page and is identical in each page to allow for easy navigation and consistent user experience.
+
+<img src="assets/images/readmeimages/navbar.jpg" width="1100">
+
 + The home page image
+
+<img src= "assets/images/Tesla2.jpg" width="400">
 
 Tesla's portrait photo is used at the home page.
 
-<img src= "assets/images/Tesla2.jpg">
++ Home page
 
-+ Navigation Bar 
+Home page is consisted of three main elements:
 
- Featured on all three pages, the full responsive navigation bar includes links to the Home page, Quotes and Media page and is identical in each page to allow for easy navigation.
+1. Introduction text
 
-<img src="assets/images/readmeimages/navbar.jpg">
+A fully responsive texbox containing a short textual introduction into Tesla's life.
 
+<img src="assets/images/readmeimages/introductionbox.jpg" width="700">
 
+2. Timeline
 
+A center piece of the first page is this fully responsive timeline, which contains the most important events from Tesla's life.
+
+<img src="assets/images/readmeimages/timeline.jpg" width="700">
+(timeline snippet)
+
+3. Newsletter box *(at the bottom across 3 pages)
+
+This simple, effective and fully responsive newsletter box is located just before the footer. It is positioned in the same place across all 3 pages and allows for quick and easy newsletter subscription.
+
+<img src="assets/images/readmeimages/newsletter.jpg">
+
++ Quotes page
+
+1. Image in the center
+
+Tesla's portrait is in the top centre position of the page.
+
+<img src="assets/images/Tesla1.jpg">
+
+2. Quotes
+
+These quote boxes are positioned vertically across the centre of the page, fully responsiveo on smaller screen sizes.
+
+<img src="assets/images/readmeimages/quotesboxes.jpg" width="400">
+
++ Media page 
+
+1. Videos in containers (from Youtube)
+
+These documentaries and other videos are embedded Youtube videos. They are positioned vertically across the centre of the page, in fully responsive containers.
+
+<img src="assets/images/readmeimages/videos.jpg" width="400">
+
+(video containers snippet)
+
++ Footer 
+
+The footer section includes links to visit potential social media pages.
+The links will open in a new tab to keep users on the page, while allowing easy navigation to share content. 
+
+<img src="assets/images/readmeimages/footer.jpg">
+
+## Future Features
+
+I would like to add more content to media page, which could provide more audiovisual information.
+
+### Automated tests
+
+  + HTML
+
+  Passing the HTML from all templates and base into the W3C Markup Validator no errors have been found [W3C validator](https://validator.w3.org/).
+  Code Validation results:
+  
+  |[Home Page](https://github.com/jurica29/Project-1/blob/4ae3f1fbf933a4cb1b795c88946703d83e6a17c4/assets/images/readmeimages/validation1.jpg)     |[Quotes Page](https://github.com/jurica29/Project-1/blob/4ae3f1fbf933a4cb1b795c88946703d83e6a17c4/assets/images/readmeimages/validation2.jpg)    |[Media Page](https://github.com/jurica29/Project-1/blob/4ae3f1fbf933a4cb1b795c88946703d83e6a17c4/assets/images/readmeimages/validation3.jpg)|
+    
+   + CSS
+
+No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/). 
+
+CSS validation results can be viewed [here](https://github.com/jurica29/Project-1/blob/4ae3f1fbf933a4cb1b795c88946703d83e6a17c4/workspace/Project-1/assets/images/readmeimages/cssvalidation.jpg)
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+No warnings were found.
+  
