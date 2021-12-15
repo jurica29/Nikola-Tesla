@@ -246,6 +246,8 @@ Pictures were treated (resized) with IrfanView app.
 -	To the Slack community as I have used the different channels to find answers to problems!
 -  Stack Overflow as a valuable resource for solving a couple of issues.
 -  [W3schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) for general reference.
-I would also like to thank:
+
+I would also like to thank to:
+
 -	My mentor Rahul, for his time, support and guidance throughout our video calls.
 -	My fiancée Maja, for all support and patience.
