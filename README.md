@@ -173,7 +173,7 @@ No warnings were found.
 
 + Errors
 
-On the 3 pages, Wave showed 1 error that can be viewed [here](https://github.com/jurica29/Project-1/blob27cb79af6f944ae9b2bcc8792944be6a03e72609/assets/images/readmeimages/wave.jpg). 
+On the 3 pages, Wave showed 1 error that can be viewed [here](https://github.com/jurica29/Project-1/blob/a9966d3ce32d81fd5693004fe262ddf207458d04/assets/images/readmeimages/wave.jpg). 
    
 The alerts for each page can be viewed on the links:
 
