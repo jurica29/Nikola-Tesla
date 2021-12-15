@@ -177,11 +177,11 @@ On the 3 pages, Wave showed 1 error that can be viewed [here](https://github.com
    
 The alerts for each page can be viewed on the links:
 
-[Home](https://github.com/jurica29/Project-1/blob27cb79af6f944ae9b2bcc8792944be6a03e72609/assets/images/readmeimages/homealerts.jpg)
+[Home](https://github.com/jurica29/Project-1/blob/a9966d3ce32d81fd5693004fe262ddf207458d04/assets/images/readmeimages/homealerts.jpg)
 
-[Quotes](https://github.com/jurica29/Project-1/blob27cb79af6f944ae9b2bcc8792944be6a03e72609/assets/images/readmeimages/quotesalerts.jpg)
+[Quotes](https://github.com/jurica29/Project-1/blob/a9966d3ce32d81fd5693004fe262ddf207458d04/assets/images/readmeimages/quotesalerts.jpg)
 
-[Media](https://github.com/jurica29/Project-1/blob27cb79af6f944ae9b2bcc8792944be6a03e72609/assets/images/readmeimages/mediaalerts.jpg)
+[Media](https://github.com/jurica29/Project-1/blob/a9966d3ce32d81fd5693004fe262ddf207458d04/assets/images/readmeimages/mediaalerts.jpg)
 
 The second page has a different name in Github, instead of "quotes.html" it is named as "joinus.html". This happened due to change of plans and late realisation that the change will be permanent, so all changes made were already committed to "joinus.html".
 
