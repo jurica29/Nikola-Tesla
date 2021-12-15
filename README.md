@@ -111,7 +111,7 @@ Tesla's portrait is in the top centre position of the page.
 
 2. Quotes
 
-These quote boxes are positioned vertically across the centre of the page, fully responsiveo on smaller screen sizes.
+These quote boxes are positioned vertically across the centre of the page, fully responsive on smaller screen sizes.
 
 <img src="assets/images/readmeimages/quotesboxes.jpg" width="400">
 
@@ -165,7 +165,7 @@ No warnings were found.
 
    + Mobile
  
- Tested with Huawei P30, Samsung A52, Huawei P40 and iPhone 12. It responsive as intended.
+ Tested with Huawei P30, Samsung A52, Huawei P40 and iPhone 12. It is responsive as intended.
 
    + Mozilla Dev Tools
  
