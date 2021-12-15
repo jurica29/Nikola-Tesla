@@ -227,7 +227,7 @@ All content was written using sources as:
 
 - [World History Project](https://worldhistoryproject.org/topics/nikola-tesla)
 
-- [Wikipedia] (https://en.wikipedia.org/wiki/Nikola_Tesla)
+- [Wikipedia](https://en.wikipedia.org/wiki/Nikola_Tesla)
 
 ### Media
 
