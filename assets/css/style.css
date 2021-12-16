@@ -98,6 +98,7 @@ nav ul li:hover {
   font-size: 30px;
 }
 
+/*Introduction textbox style*/
 #intro {
   min-height: 5vh;
   line-height: 100%;
@@ -137,6 +138,7 @@ nav ul li:hover {
   background-color: black;
 }
 
+/*Timeline code inspired and adapted from "Web Cifar's" and "Online Tutorials" Youtube video tutorials */
 /*Home page timeline style */
 /*Container style */
 .container {
@@ -177,7 +179,7 @@ nav ul li:hover {
   margin-bottom: 0;
 }
 
-/*Content style for h2 and p of timeline*/
+/*Content style for headings of the timeline boxes*/
 .timeline-content h2 {
   font-size: 20px;
   font-weight: 750;
@@ -185,6 +187,7 @@ nav ul li:hover {
   margin-bottom: 10px;
 }
 
+/*Content style for paragraphs of the timeline boxes*/
 .timeline-content p {
   font-size: 18px;
   line-height: 30px;
@@ -247,7 +250,7 @@ nav ul li:hover {
   }
 }
 
-/*Body elements style*/
+/*Headings*/
 h1,
 h2,
 h3 {
@@ -273,6 +276,7 @@ h3 {
   border-left-width: 12px;
 }
 
+/*Quote boxes positioning and style*/
 .blockquote--quoted::before {
   content: "\201c";
   font-size: 100px;
@@ -282,6 +286,7 @@ h3 {
   margin-top: -20px;
 }
 
+/*Quotes text style*/
 .blockquote__text {
   font-family: "Helvetica Neue", sans-serif;
   font-style: italic;
@@ -346,7 +351,7 @@ form {
   color: black;
 }
 
-/*Newsletter title*/
+/*Newsletter title style*/
 h3 {
   color: black;
   font-size: 20px;
@@ -370,6 +375,7 @@ h3 {
   background: #f0f4ef;
 }
 
+/*Hover option for newsletter button*/
 #email-input:focus,
 #email-input:hover {
   outline: 0px;
@@ -446,6 +452,7 @@ h3 {
   border: 6px solid black;
 }
 
+/*Video container style*/
 .vidcontainer {
   display: flex;
   justify-content: center;
@@ -456,6 +463,7 @@ h3 {
   position: relative;
 }
 
+/*Iframe wrapper div style*/
 .vidwrapper iframe {
   display: flex;
   justify-content: center;
@@ -467,7 +475,7 @@ h3 {
   left: 0;
 }
 
-/*Media page title responsiveness*/
+/*Media page title box responsiveness*/
 @media only screen and (max-width: 767px) {
   #documentaries {
     max-height: 70em;
@@ -515,7 +523,7 @@ footer {
   opacity: 0.6;
 }
 
-/* Copyright text at the end of the footer*/
+/* Style for copyright text at the end of the footer*/
 .copyright {
   color: white;
   font-size: 90%;

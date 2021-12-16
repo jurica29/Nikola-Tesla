@@ -175,7 +175,7 @@ No warnings were found.
 
 + Errors
 
-On the 3 pages, Wave showed 1 error that can be viewed [here](https://github.com/jurica29/Project-1/blob/a9966d3ce32d81fd5693004fe262ddf207458d04/assets/images/readmeimages/wave.jpg). 
+On the 3 pages, Wave showed 1 error that can be viewed [here](https://github.com/jurica29/Nikola-Tesla/tree/a254d4ff18359087ef0db55bce4077b0d2e6a419/assets/images/readmeimages/smallerscreens). 
    
 The alerts for each page can be viewed on the links:
 
@@ -241,6 +241,8 @@ Pictures were treated (resized) with IrfanView app.
 
 + [Favicon generator](https://www.favicon-generator.org/) – Used to create favicon used on website.
 + [W3 Schools](https://www.w3schools.com/) - Used for variety of tutorials and deeper understanding of some important concepts related to both HTML and CSS.
++ [Online Tutorials Youtube channel](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog) - Used for timeline code adaptation.
++ [Web Cifar Youtube channel](https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ) - Used for timeline code adaptation.
 
 ### Acknowledgements
 
