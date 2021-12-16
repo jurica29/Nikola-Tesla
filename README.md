@@ -171,7 +171,7 @@ No warnings were found.
  
  Tested for available devices, webpage works well. It is responsive as intended.
 
- [Screenshots from a mobile phone device](https://github.com/jurica29/Project-1/blob/a9966d3ce32d81fd5693004fe262ddf207458d04/assets/images/readmeimages/smallerscreens)
+ [Screenshots from a mobile phone device](https://github.com/jurica29/Nikola-Tesla/tree/main/assets/images/readmeimages/smallerscreens)
 
 + Errors
 
