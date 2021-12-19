@@ -237,7 +237,7 @@ All content was written using sources as:
 - [Youtube](https://www.youtube.com/) videos were used on media page.
 Pictures were treated (resized) with IrfanView app.
 
-### Worked based in other code
+### Work based in other code
 
 + [Favicon generator](https://www.favicon-generator.org/) – Used to create favicon used on website.
 + [W3 Schools](https://www.w3schools.com/) - Used for variety of tutorials and deeper understanding of some important concepts related to both HTML and CSS.
