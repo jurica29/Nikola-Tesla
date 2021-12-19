@@ -175,7 +175,7 @@ No warnings were found.
 
 + Errors
 
-On the 3 pages, Wave showed 1 error that can be viewed [here](https://github.com/jurica29/Nikola-Tesla/tree/a254d4ff18359087ef0db55bce4077b0d2e6a419/assets/images/readmeimages/smallerscreens). 
+On the 3 pages, Wave showed 1 error that can be viewed [here](https://github.com/jurica29/Nikola-Tesla/tree/main/assets/images/readmeimages//wave.jpg). 
    
 The alerts for each page can be viewed on the links:
 
