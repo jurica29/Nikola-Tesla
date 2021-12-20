@@ -250,7 +250,7 @@ nav ul li:hover {
   }
 }
 
-/*Headings*/
+/*Headings across all pages*/
 h1,
 h2,
 h3 {
@@ -422,6 +422,7 @@ h3 {
 }
 
 /*Media page style*/
+/*Heading on top of media page*/
 #documentaries {
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 5%;
@@ -476,7 +477,7 @@ h3 {
   left: 0;
 }
 
-/*Media page title box responsiveness*/
+/*Media page heading responsiveness*/
 @media only screen and (max-width: 767px) {
   #documentaries {
     max-height: 70em;
