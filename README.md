@@ -132,11 +132,9 @@ The links will open in a new tab to keep users on the page, while allowing easy 
 
 <img src="assets/images/readmeimages/footer.jpg">
 
-## Future Features
+# Testing
 
-I would like to add more content to media page, which could provide more audiovisual information.
-
-### Automated tests
+## Automated tests
 
   + HTML
 
@@ -157,7 +155,7 @@ CSS validation results can be viewed [here](https://github.com/jurica29/Project-
     </a>
 No warnings were found.
 
-### Manual Testing
+## Manual Testing
 
    + Desktop
 
@@ -186,6 +184,12 @@ The alerts for each page can be viewed on the links:
 [Media](https://github.com/jurica29/Project-1/blob/a9966d3ce32d81fd5693004fe262ddf207458d04/assets/images/readmeimages/mediaalerts.jpg)
 
 The second page has a different name in Github, instead of "quotes.html" it is named as "joinus.html". This happened due to change of plans and late realisation that the change will be permanent, so all changes made were already committed to "joinus.html".
+
+## Future Features
+
+I would like to add more content to media page, which could provide more audiovisual information, which would be possibly positioned in three columns across the page.
+Also, maybe I would like to add more graphical addons, such as some sketches in the background, which would also need to be not limiting responsiveness of the website itself.
+Moreover, maybe I would add an extra page with specific sections on Tesla's work, which could provide more details for technically more skilled visitors.
 
 ## Project Bugs and Solutions:
 
