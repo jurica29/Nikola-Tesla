@@ -174,6 +174,8 @@ No warnings were found.
 + Errors
 
 On the 3 pages, Wave showed 1 error that can be viewed [here](https://github.com/jurica29/Nikola-Tesla/tree/main/assets/images/readmeimages//wave.jpg). 
+
+That error was fixed by adding the "aria-labelledby" attribute to the form, which helps the assistive technology, such as screen readers, to catalog the object, so that users can navigate between them.
    
 The alerts for each page can be viewed on the links:
 
